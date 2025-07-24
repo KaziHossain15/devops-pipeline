@@ -3,6 +3,7 @@ name: CI/CD Pipeline #name of the workflow
 on:
     push:
         branches: [main] # this workflow will run everytime there is a push to the main branch
+    workflow_dispatch: # this allows you to manually trigger the workflow from the GitHub UI
 
 jobs: 
     build-and-test:
