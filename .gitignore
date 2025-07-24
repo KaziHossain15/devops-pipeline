@@ -1,3 +1,5 @@
 # this ignores the files that are not needed in the repo
 __pycache__/
 .pytest_cache/
+.venv/
+venv/
