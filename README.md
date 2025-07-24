@@ -24,9 +24,10 @@ This repository contains a simple Python Flask web application integrated with a
 1. Clone the repository:
    
    git clone https://github.com/KaziHossain15/devops-pipeline.git
+
    cd devops-pipeline
 
-2.  Create and activate a virtual environment:
+3.  Create and activate a virtual environment:
 
    python3 -m venv venv
    source venv/bin/activate    # macOS/Linux
